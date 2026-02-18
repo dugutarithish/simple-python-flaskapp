@@ -7,7 +7,6 @@ echo
 # Run the Docker image as a container
 echo
 
-
 docker pull rithishkumar/simple-python-app-ci-cd
 
 docker run -d -p 5000:5000 rithishkumar/simple-python-app-ci-cd
